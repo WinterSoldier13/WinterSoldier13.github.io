@@ -38,10 +38,12 @@
     
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <script type="text/javascript" src="assets/js/trans.js"></script>
     
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/temp.css">
 
     
 </head> 
@@ -67,13 +69,13 @@
 
 
         
-        <div class="container clearfix">      
+        <div class="container clearfix" data-aos="slide-up">      
             
-            <img class="profile-image img-fluid float-left round move_it" height="250px" width="250px" src="assets/images/profile.png" alt="Ayush Singh" />
+            <img class="profile-image img-fluid float-left round move_it"  height="250px" width="250px" src="assets/images/profile.png" alt="Ayush Singh" />
             <div class="profile-content float-left">
-                <h1 class="name round">Ayush Singh</h1>
+                <h1 class="name round" >Ayush Singh</h1>
 
-                <h2 class="desc typewriter text-white">|I love COFFEE, CODING, and COLDPLAY|</h2>   
+                <h2 class="desc typewriter text-white">|I  <i class="fas fa-heart" color="red"></i> COFFEE, CODING, and COLDPLAY|</h2>   
                 <ul class="social list-inline">
                     <li class="list-inline-item"><a href="http://twitter.com/officialPirate"><i class="fab fa-twitter"></i></a></li>                   
                     
@@ -101,7 +103,7 @@
 
 
     
-    <div class="container sections-wrapper">
+    <div class="container sections-wrapper" data-aos="slide-right">
         <div class="row">
             <div class="primary col-lg-8 col-12">
                 <div class="section-inner">
@@ -127,10 +129,10 @@
 
                           </center>
                         </div>
-                        <div class="flip-card-back">
+                        <div class="flip-card-back "  >
                           <br>
                           <br>
-                          <p>Hey There! I'm a 2nd Year B.Tech UG in Electrical Engineering at the National Institute of Technology-Agartala, India, a hardworking and a goal-oriented person.
+                          <p  >Hey There! I'm a 2nd Year B.Tech UG in Electrical Engineering at the National Institute of Technology-Agartala, India, a hardworking and a goal-oriented person.
                             <br>I am a Full Stack Web Developer, Android App developer, and a Machine Learning practitioner.
                             <br>Recently I've been designing Circuits for Quantum Computers.
                             <br> I love to mess around with software and hardwares.</br>
@@ -165,7 +167,7 @@
     
 
                <section class="latest section ">
-                    <div class="section-inner">
+                    <div class="section-inner" data-aos="slide-left">
                         <div>
                             <div id="large-header" class="large-header">
                                <canvas id="demo-canvas"></canvas>
@@ -186,7 +188,7 @@
                                     </div>
                                 </div>
                                     
-                                <div class="desc text-left">                                    
+                                <div class="desc text-left" data-aos="flip-right">                                    
                                     <p>PIKA is an autonomous robot that can interact with it's surrounding using Image Processing with Machine Learning. It was trained exceptionally to identify me.
                                     <br>It made use of pre-trained MTCNN to detect human faces and dlib for face identification. 
                                         <br>It made use of an onboard RaspberryPi4 with a camera sensor to capture images and stream them to a local Desktop via WiFi where the trained ML model was used to classify the images.
@@ -198,11 +200,11 @@
                             <hr class="divider" />
 
 
-                                <div class="item row">
+                                <div class="item row" data-aos="slide-right">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
                                 <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-12">
+                                <div class="desc col-md-8 col-12"  data-aos="slide-up">
                                     <h3 class="title">NOOB - The noob warrior</h3>
                                     <p class="mb-2">NOOB is a RoboWar bot developed by me and my team of 5 others...My job was to develop NOOB's under the hood components...designing all the circuits and the controller.
                                         <br>Since it's development NOOB has participated in various competitons.
@@ -217,11 +219,11 @@
                             </div><!--//item-->
 
 
-                            <div class="item row">
+                            <div class="item row"  data-aos="slide-left">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
                                 <img class="img-fluid project-image" src="assets/images/projects/project-2.jpg" alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-12">
+                                <div class="desc col-md-8 col-12"  data-aos="zoom-in">
                                     <h3 class="title">Self Driving car for GTA-V</h3>
                                     <p class="mb-2">So I developed a python script to drive cars in Grand Theft Auto 5 PC, not that I was bored of driving car in GTA 5... I still love the game, it was just an idea that hit me to make self-driving cars, ain't got no Tesla in India :/
                                         <br>The script was based on Transfer-Learing
@@ -234,7 +236,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row">
+                            <div class="item row"  data-aos="slide-right">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
                                 <img class="img-fluid project-image" src="assets/images/projects/project-3.jpg" alt="project name" />
                                 </a>
@@ -251,7 +253,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                             <div class="item row">
+                             <div class="item row"  data-aos="slide-left">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">
                                 <img class="img-fluid project-image" src="assets/images/projects/project-4.png" alt="project name" />
                                 </a>
@@ -265,7 +267,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row">
+                            <div class="item row" data-aos="slide-right">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">
                                 <img class="img-fluid project-image" src="assets/images/projects/project-5.gif" alt="project name" />
                                 </a>
@@ -290,7 +292,7 @@
                         <div class="content">
 
 
-                        	 <div class="item">
+                        	 <div class="item" data-aos="slide-left">
                                 <h3 class="title"><a href="#" target="_blank">Python++ : utilize the best of Python and C++</a> <span class="badge badge-theme">Free</span></h3>
                                 <p class="summary">Python++ is a wrapper over your normal python3.7 interpreter, follow this <a href="https://cubepy.blogspot.com/2020/04/using-python-with-braces-python.html">link</a> to learn more.</p>
                                 
@@ -341,7 +343,7 @@
 
 
             </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12">
+            <div class="secondary col-lg-4 col-12" >
                  <aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading sr-only">Basic Information</h2>
@@ -356,9 +358,9 @@
                 </aside><!--//aside-->
                 
                 <aside class="skills aside section">
-                    <div class="section-inner">
+                    <div class="section-inner" >
                         <h2 class="heading">Skills</h2>
-                        <div class="content">
+                        <div class="content" data-aos="zoom-in">
                             <p class="intro"> 
                             <br>||Quantumdot Cellular Automata||
                             <br>||Machine Learning, Django, NodeJS, ReactJS, MongoDB, PostGRE, SQL, HTML & CSS, Android Development, IoT||
@@ -468,7 +470,7 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
                     <div class="section-inner">
                         
                         <h2 class="heading">Favourite coding music</h2>
-                        <div class="content">
+                        <div class="content" data-aos="slide-right">
                             <ul class="list-unstyled">
                                 <li><i class="fas fa-headphones"></i> <a href="#">Coldplay - UP and UP</a></li>
                                 <li><i class="fas fa-headphones"></i> <a href="#">Ed Sheeran - Photograph </a></li>
@@ -478,7 +480,7 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
                         </div><!--//content-->
                         <br>
 
-                        
+                        <div data-aos="slide-down">
                         <h2 class="heading">My current repetitions  </h2>
                             <ul class="list-unstyled">
                                 <li><i class="fas fa-headphones"></i> <a href="#">Marshmellow and Halsey - Be Kind</a></li>
@@ -486,6 +488,7 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
                                 <li><i class="fas fa-headphones"></i> <a href="#">The Weekend- In your Eyes</a></li>
 
                             </ul>
+                            
                         </div>  
                         
 
@@ -519,7 +522,27 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
     <script type="text/javascript" src="assets/js/main2.js"></script>    
     <script type="text/javascript" src="assets/js/main.js"></script>            
     <script type="text/javascript" src="assets/js/demo.js"></script>  
+    <script type="text/javascript" src="assets/js/demo.js"></script>  
 
 </body>
 </html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
