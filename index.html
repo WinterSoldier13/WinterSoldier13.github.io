@@ -28,8 +28,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
     <link rel="shortcut icon" href="favicon.ico">  
     
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -49,18 +47,33 @@
 </head> 
 
 <body>
-    <!-- ******HEADER****** --> 
-    <header class="header thisis">
+
+             
+
+    
+    <header class="header thisis parallax">
+        <!-- ******HEADER****** --> 
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        This website is hosted on free GitHub Pages and thus is slow... pls allow it to load completely :).
+    </div>
+
+
+    <div>
+        <div id="large-header" class="large-header">
+           <canvas id="demo-canvas"></canvas>
+           </div>
+     </div>
+
+
+        
         <div class="container clearfix">      
-            <div class="alert">
-                          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                          This website is hosted on free GitHub Pages and thus is slow... pls allow it to load completely :).
-                        </div>
+            
             <img class="profile-image img-fluid float-left round move_it" height="250px" width="250px" src="assets/images/profile.png" alt="Ayush Singh" />
             <div class="profile-content float-left">
                 <h1 class="name round">Ayush Singh</h1>
 
-                <h2 class="desc typewriter">|I love COFFEE, CODING, and COLDPLAY|</h2>   
+                <h2 class="desc typewriter text-white">|I love COFFEE, CODING, and COLDPLAY|</h2>   
                 <ul class="social list-inline">
                     <li class="list-inline-item"><a href="http://twitter.com/officialPirate"><i class="fab fa-twitter"></i></a></li>                   
                     
@@ -73,7 +86,16 @@
 
             <a class="btn btn-cta-primary float-right move_the_fuck" href="https://www.linkedin.com/in/winter-soldier/" target="https://www.linkedin.com/in/winter-soldier/"><i class="fas fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
+
     </header><!--//header-->
+    
+        <div>
+           <div id="large-header" class="large-header">
+              <canvas id="demo-canvas"></canvas>
+              </div>
+        </div>
+        
+
 
 
 
@@ -85,15 +107,15 @@
                 <div class="section-inner">
                 	<center>
 
-                	<img class="img-fluid project-image" src="assets/images/video.gif" alt="Please wait for it to load" />
-                			<br>A DeepFake video :P
+                        <video class="featured" width="auto" height="250" autoplay controls>
+                            <source src="/assets/images/video.mp4" type="video/mp4">
+                            
+                          Your browser does not support the video tag.
+                          </video>
+                			<br>A DeepFake video created using PyTorch
                         
-                		</center>
-                		
-                		<br>
-
-
-
+                        </center>
+                        
                     <div class="flip-card">
 
                       <div class="flip-card-inner">
@@ -112,14 +134,13 @@
                         </div>
                         <div class="flip-card-back">
                           <br>
-                          
                           <br>
                           <p>Hey There! I'm a 2nd Year B.Tech UG in Electrical Engineering at the National Institute of Technology-Agartala, India, a hardworking and a goal-oriented person.
-                            <br>I am a Web Developer, Android App developer, and a Machine Learning practitioner.
+                            <br>I am a Full Stack Web Developer, Android App developer, and a Machine Learning practitioner.
                             <br>Recently I've been designing Circuits for Quantum Computers.
                             <br> I love to mess around with software and hardwares.</br>
                             <br> I <i class="fas fa-heart"></i> Linux.
-                            <br> My favorite IDE is Visual Studio Code for C++, C and JAVA and PyCharm for Python.
+                            <br> 
                         </p>
                         </div>
 
@@ -143,10 +164,18 @@
                         </div>
                     </div>               
                 </section>
+
  -->
+
     
-               <section class="latest section">
+
+               <section class="latest section ">
                     <div class="section-inner">
+                        <div>
+                            <div id="large-header" class="large-header">
+                               <canvas id="demo-canvas"></canvas>
+                            </div>
+                         </div>
                         <h2 class="heading">Projects</h2>
                         <div class="content">    
                                                
@@ -303,6 +332,7 @@
                                 <h3 class="title">Google-AI Explore ML Facilitator- <span class="place"><a href="#"></a></span> <span class="year">(July 2019 - Jan 2020)</span></h3>
                                 <p>Conducted various Workshops related to Machine Learning. Went to Google, Banglore, India for a two days workshop on Machine Learning and Public Speaking.</p>
                             </div><!--//item-->
+                            
                             <div class="item">
                                 <h3 class="title">General Secretary - <span class="place"><a href="#">ANARC, NIT Agartala</a></span> <span class="year">(Aug 2019 - present)</span></h3>
                                 <p>One of the organizing member for AAYAM 7.0 (The TechFest of NIT Agartala). Worked on several robotics projects.</p>
@@ -334,18 +364,19 @@
                     <div class="section-inner">
                         <h2 class="heading">Skills</h2>
                         <div class="content">
-                            <p class="intro">
-                                ||Creater of PIKA》 an autonomous robotic pet||
-<br>||Quantumdot Cellular Automata||
-<br>||Python, JAVA, Kotlin, C, C++, C#, MATLAB, Octave||
-<br>||HTML & CSS, Android Development, IoT, Machine Learning|, Django| </p>
+                            <p class="intro"> 
+                            <br>||Quantumdot Cellular Automata||
+                            <br>||Machine Learning, Django, NodeJS, ReactJS, MongoDB, PostGRE, SQL, HTML & CSS, Android Development, IoT||
+                            <br>||Python, JAVA, Kotlin, C, C++, C#, MATLAB, Octave||
+                        </p>
+                           
                             
                             <div class="skillset">
                                
                                 <div class="item">
-                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
+                                    <h3 class="level-title"><i class="fas fa-heart"></i>Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%">
+                                        <div class="level-bar-inner" data-level="92%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
@@ -357,35 +388,45 @@
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
-                                          <div class="item">
-                                    <h3 class="level-title">C++ <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
+
+
+
+                                <div class="item">
+                                    <h3 class="level-title"><i class="fas fa-heart"></i>C++ <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Kotlin <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">JAVAScript <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
-                                                                          <div class="item">
-                                    <h3 class="level-title">Kotlin <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
+
+
+
+                                <h3 class="level-title">HTML5, CSS <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
+                                        <div class="level-bar-inner" data-level="75%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
-                                <h3 class="level-title">JAVAScript <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="65%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                             
-                                <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Y"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="84%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+
+                                                          
                                 
-                            </div>              
+            
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//section-->
@@ -428,7 +469,9 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
                
                 
                 <aside class="list music aside section">
+                    
                     <div class="section-inner">
+                        
                         <h2 class="heading">Favourite coding music</h2>
                         <div class="content">
                             <ul class="list-unstyled">
@@ -438,6 +481,19 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
                                 <li><i class="fas fa-headphones"></i> <a href="#">Coldplay - Orphans</a></li>
                             </ul>
                         </div><!--//content-->
+                        <br>
+
+                        
+                        <h2 class="heading">My current repetitions  </h2>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-headphones"></i> <a href="#">Marshmellow and Halsey - Be Kind</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="#">The Naked and Famous- Blinding Lights</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="#">The Weekend- In your Eyes</a></li>
+
+                            </ul>
+                        </div>  
+                        
+
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
@@ -445,6 +501,9 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
             </div><!--//secondary-->    
         </div><!--//row-->
     </div><!--//masonry-->
+
+        
+
     
     <!-- ******FOOTER****** --> 
     <footer class="footer">
@@ -453,6 +512,9 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
                 <small class="copyright">Hosted with <i class="fas fa-heart"></i> on GitHub</small>
         </div><!--//container-->
     </footer><!--//footer-->
+
+
+
  
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
@@ -461,6 +523,8 @@ Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i cl
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
     <script type="text/javascript" src="assets/js/main2.js"></script>    
     <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/demo.js"></script>  
+
 </body>
 </html> 
 
