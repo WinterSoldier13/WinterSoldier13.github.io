@@ -1,190 +1,460 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-    .alert {
-      padding: 21px;
-      background-color: #f44336;
-      color: white;
-    }
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    .closebtn {
-      margin-left: 15px;
-      color: white;
-      font-weight: bold;
-      float: right;
-      font-size: 22px;
-      line-height: 20px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    .closebtn:hover {
-      color: black;
-    }
-    </style>
-
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
-
-    <title>Ayush's Portfolio</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico">  
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    
-    <!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
-    
-    <!-- Global CSS -->
-    <!-- <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">    -->
-    <script type="text/javascript" src="assets/js/trans.js"></script>
-    
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <link id="theme-style" rel="stylesheet" href="assets/css/temp.css">
-
-    
-</head> 
-
-<body>
-
-             
-
-    
-    <header class="header thisis parallax">
-        <!-- ******HEADER****** --> 
-    <div class="alert">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        This website is hosted on free GitHub Pages and thus is slow... please allow it to load completely :).
-    </div>
+		<title>Ayush :)</title>
 
 
-    <div>
-        <div id="large-header" class="large-header">
-           <canvas id="demo-canvas"></canvas>
-           </div>
-     </div>
+		<!-- Open Sans Google font -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+		<!-- Raleway Google font -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:700">
+		<!-- Favicons -->
+		<link rel="shortcut icon" href="img/tlogo.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/user.png">
+		<!-- Fontawesome fonts css file -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- Animate.css file -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Owl carousel css file -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Bootstrap file -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Custom styles css file -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/aos-trans.css">
 
-
-        
-        <div class="container clearfix" data-aos="slide-up">      
-            
-            <img class="profile-image img-fluid float-left round move_it"  height="250px" width="250px" src="assets/images/profile.png" alt="Ayush Singh" />
-            <div class="profile-content float-left">
-                <h1 class="name round" >Ayush Singh</h1>
-
-                <h2 class="desc typewriter text-white">|I  <i class="fas fa-heart" color="red"></i> COFFEE, CODING, and COLDPLAY|</h2>   
-                <ul class="social list-inline">
-                    <li class="list-inline-item"><a href="http://twitter.com/officialPirate"><i class="fab fa-twitter" color="blue"></i></a></li>                   
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/winter-soldier/"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.github.com/WinterSoldier13"><i class="fab fa-github-alt" color="black"></i></a></li>    
-                    <li class="list-inline-item"><a href="https://stackoverflow.com/users/7558022/wintersoldier"><i class="fab fa-stack-overflow" color="orange"></i></a></li>   
-                                  
-                </ul> 
-            </div><!--//profile-->
-
-            <a class="btn btn-cta-primary float-right move_the_fuck" href="https://www.linkedin.com/in/winter-soldier/" target="https://www.linkedin.com/in/winter-soldier/"><i class="fas fa-paper-plane"></i> Contact Me</a>              
-        </div><!--//container-->
-
-    </header><!--//header-->
-    
-        <div>
-           <div id="large-header" class="large-header">
-              <canvas id="demo-canvas"></canvas>
-              </div>
-        </div>
-        
+		<div class="alert">
+			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+			This website uses a hefty amount of GPU so please drag the scrollbar to scroll instead of using your touch pad. :)
+		  </div>
 
 
 
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
 
+	</head>
+	<body>	
+		<!-- Start Preloader Page --> 
+		<div class="preloader">
+			<div class="pulse"></div>
+			<div class="pulse"></div>
+		</div>
+		<!-- End Preloader Page -->	
 
-    
-    <div class="container sections-wrapper" data-aos="slide-right">
-        <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <div class="section-inner">
-                	<center>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cttLKpMVnGY?autoplay=1&vq=hd720&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                			<br>A DeepFake video created using PyTorch
-                        
-                        </center>
-                        
-                    <div class="flip-card">
+		<!-- Start Header Section -->
+		<div class="header" id="header">
+			<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+				<div class="content center">
+					<div class="container">
+						<p>//Hello World it's</p>
+						<div data-aos="slide-right"><h1>Ayush Singh</h1></div>
+						
+						<p>||I love COFFEE, CODING and COLDPLAY||</p>
+					</div> <!-- End container -->
+				</div>
+				<div class="mouse" id="mouse"></div>  <!-- Mouse Icon -->
+			</div>
+		</div>
+		<!-- End Header Section -->
 
-                      <div class="flip-card-inner">
+		<!-- Start Side Menu -->
+		<!-- <nav id="top-nav" style="min-height:7%">
+						<div class="menu" id="menu" >
+				<span class="bar b1"></span>
+				<span class="bar b2"></span>
+				<span class="bar b3"></span>
+			</div>
+			<div class="side-menu" id="side-menu"> 
+				<a href="#header">Home</a>
+				<a href="#about-me">about me</a>
+				<a href="#services">services</a>
+				<a href="#skills">skills</a>
+				<a href="#experiences">experiences</a>
+				<a href="#testmonials">Projects</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#contact-me">Contact Me</a>
+			</div>
+		</nav> -->
+		<!-- End Side Menu -->
 
-                        <div class="flip-card-front">
-                          <center>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                          <h1 class="typewriter"> _ABOUT ME </h1>
+		<!-- Start About Me Section -->
+		<div class="about-me clearfix" id="about-me">
+			<div class="container">
+				<div class="row">
+					<!-- Profile Pic -->
+					<div class="my-pic center col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<img src="img/profile.png" alt="my profile pic" style="width:375px;height:375px;">
+					</div>
+					<div class="introduction col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<div data-aos="slide-left">
+						<h2 class="h2">Ayush Singh</h2>
+					</div>
+						<div class="heading-line" data-aos="slide-up"></div>
+						<p class="introduce">Machine Learning Enthusiast, App Developer, Full Stack Developer</p>
+						<p class="intro">Hey There! I'm a 2nd Year B.Tech UG in Electrical Engineering at the National Institute of Technology-Agartala, India, A hardworking and a goal-oriented person.
+										I am a Full Stack Web Developer, Android App developer, and a Machine Learning practitioner.
+										Recently I've been designing Circuits for Quantum Computers.
+										I love to mess around with software and hardwares :)	
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="profile col-sm-4 col-xs-12 wow fadeInUp text-center" data-wow-duration="0.5s" data-wow-offset="200">
+						<h3>personal info</h3>
+						<div class="heading-line"></div>
+						<div class="personal-wrapper">
+							<span><strong>Full Name: </strong>Ayush Ranjan Singh</span>
+							<span><strong>E-mail:</strong>ayushsingh1315@gmail.com</span>
+							<span><strong>phone number: </strong>+91 7766942620</span>
+							<span><strong>website: </strong><a href="https://cubepy.blogspot.com" target="_blank">cubePY</a></span>
+						</div>
+					</div>
+					<div class="why-me col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<!-- Start Accordion -->
+						<div class="accordion">
+							<div class="acc-item">
+								<div class="acc-title"><i class="fa fa-plus"></i> My career objective.</div>
+								<div class="acc-content">Software Engineering fresher with the ability to offer quick and effective tech solutions. Looking for a challenging startup-like environment that provides me with a good opportunity for learning and advancement and to ensure personal and professional growth </div>
+							</div>
+							<div class="acc-item">
+								<div class="acc-title"><i class="fa fa-plus"></i> My area of Strength.</div>
+								<div class="acc-content">I am proficient in Python, C++ and JAVA.</div>
+							</div>
+							<div class="acc-item">
+								<div class="acc-title"><i class="fa fa-plus"></i> My future goals</div>
+								<div class="acc-content">To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</div>
+							</div>
+							<div class="acc-item">
+								<div class="acc-title"><i class="fa fa-plus"></i>my hobbies.</div>
+								<div class="acc-content">I love to build stuffs with my RaspberryPi and Arduino and watching YouTube videos on implementations of DS and Algorithms. </div>
+							</div>
+						</div> <!-- End Accordion -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End About Me Section -->
 
-                          <small>(hover here)</small>
+		<!-- Start Fun Facts Section -->
+		<div class="fun-facts center" id="facts" style="padding-left:18%">
+			<div class="pattern"></div>
+			<div class="container" >
+					<div class="row" >
+					<!-- Fact No. 1 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="fact">
+							<i class="fa fa-cogs"></i>
+							<p id="number_1">10</p>
+							<span style="font-size:25px"><b>Technical Skills</b></span>
+						</div>
+					</div>
+					<!-- Fact No. 2 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="fact">
+							<i class="fa fa-address-book"></i>
+							<p id="number_2"></p>
+							<span style="font-size:25px"><b>Public Speaking</b></span>
+						</div>
+					</div>
+					<!-- Fact No. 3 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="fact">
+							<i class="fa fa-briefcase"></i>
+							<p id="number_3">0</p>
+							<span style="font-size:25px"><b>Learning Attitude</b></span>
+						</div>
+					</div>
+					<!-- Fact No. 4 -->
+					
+				</div>
+			</div>
+		</div>
+		<!-- End Fun Facts Section -->
 
-                          </center>
-                        </div>
-                        <div class="flip-card-back "  >
-                          <br>
-                          <br>
-                          <p  >Hey There! I'm a 2nd Year B.Tech UG in Electrical Engineering at the National Institute of Technology-Agartala, India, a hardworking and a goal-oriented person.
-                            <br>I am a Full Stack Web Developer, Android App developer, and a Machine Learning practitioner.
-                            <br>Recently I've been designing Circuits for Quantum Computers.
-                            <br> I love to mess around with software and hardwares :)</br>
-                            <br> I <i class="fas fa-heart"></i> Linux.
-                            <br> 
-                        </p>
-                        </div>
+		<!-- Start Services Section -->
+		<div class="services center" id="services">
+			<div class="container">
+				<!-- Title -->
+				<div class="title">
+					<h2 class="h2">what i'm upto</h2>
+					<div class="heading-line"></div>
+					<p class="main-para">Here is a little overview of what all i am doing right now.</p>
+				</div>	
+				<div class="row">
+					<!-- Service No. 1 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="service">
+							<i class="fa fa-laptop"></i>
+							<h3>Competetive Programming</h3>
+							<p>Learning Data Structures and Algorithms and implementing it in real life in an optimized way</p>
+						</div>
+					</div>
+					<!-- Service No. 2 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="service">
+							<i class="fa fa-code"></i>
+							<h3>Machine Learning</h3>
+							<p>I'm equipped with the basics of Machine Learning and its algorithms. Applications of ML like NLP and Computer Vision has inclined my respect towards this field </p>
+						</div>
+					</div>
+					<!-- Service No. 3 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="service">
+							<i class="fa fa-magic"></i>
+							<h3>Free Lancing</h3>
+							<p>Skilled in creating awesome websites with the hottest technologies like NodeJS, ReactJS and Django </p>
+						</div>
+					</div>
+					<!-- Service No. 4 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="service">
+							<i class="fa fa-magic"></i>
+							<h3>Gaming</h3>
+							<p>Yeah! I love to play video games COD-MW and GTA-5 are my fav</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Services Section -->
 
-                      </div>
+		<!-- Start Technical Skills Section -->
+		<div class="technical-skills center" id="skills">
+			<div class="pattern"></div>
+			<div class="container">
+				<!-- Title -->
+				<div class="title">
+					<h2 class="h2">Skills</h2>
+					<div class="heading-line"></div>
+					<p class="title">To get into corporate world, Skills are required and here's what I'm currently equipped with </p>
+				</div>	
+				<!-- Start main skills -->
+				<div class="skills-wrapper row">
+					<!-- main skill No. 1 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="89">
+							<span><span id="chart_num_1">0</span> %</span>
+						</div>
+						<h2>Python</h2>
+					</div>
+					<!-- main skill No. 2 -->					
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="90">
+							<span><span id="chart_num_2">0</span> %</span>
+						</div>
+						<h2>C/C++</h2>
+					</div>
+					<!-- main skill No. 3 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="80">
+							<span><span id="chart_num_3">0</span> %</span>
+						</div>
+						<h2>JAVA</h2>
+					</div>
+					<!-- main skill No. 4 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="78">
+							<span><span id="chart_num_4">0</span> %</span>
+						</div>
+						<h2>Kotlin</h2>
+					</div>
+					<!-- main skill No. 5 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="65">
+							<span><span id="chart_num_5">0</span> %</span>
+						</div>
+						<h2>C#</h2>
+					</div>
+					<!-- main skill No. 6 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="63">
+							<span><span id="chart_num_6">0</span> %</span>
+						</div>
+						<h2>MATLAB</h2>
+					</div>
+					<!-- main skill No. 7 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="63">
+							<span><span id="chart_num_7">0</span> %</span>
+						</div>
+						<h2>Octave</h2>
+					</div>
+					<!-- main skill No. 7 -->
+					<div class="skill col-md-3 col-sm-8">
+						<div class="chart center" data-percent="82">
+							<span><span id="chart_num_8">0</span> %</span>
+						</div>
+						<h2>JAVAScript</h2>
+					</div>
+				</div> <!-- End main skills -->
+				<div class="other-skills">
+					<h2 class="h2">Academic Details and Skills</h2>
+					<div class="heading-line"></div>
+					<p class="title">Currently I am pursuing my bachelors in Electrical Engineering at National Institute Of Technology Agartala .</p>
+					<!-- Start other skills -->
+					<div class="skills-wrapper row">
+						<!-- Skill No. 1 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="93.6" data-tooltip="true" data-label="X(ICSE)" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 2 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="91.2" data-tooltip="true" data-label="XII(CBSE)" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 3 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="10">
+							<div class=" bar_group__bar thick elastic" data-value="9.23" data-tooltip="true" data-label="B-TECH EE(3rd Sem)" data-show-values="true" data-unit="SGPA"></div>
+						</div>
+						<!-- Skill No. 4 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="78" data-tooltip="true" data-label="Leadership" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 5 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="75" data-tooltip="true" data-label="planning" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 6 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="80" data-tooltip="true" data-label="Android Studio" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 7 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="84" data-tooltip="true" data-label="Backend Web Development" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 8 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="81" data-tooltip="true" data-label="FrontEnd Web Development" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 9 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="80" data-tooltip="true" data-label="Data Structures and Algorithms" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 10 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="70" data-tooltip="true" data-label="Basic circuit designing for Quantum Computers" data-show-values="true" data-unit="%"></div>
+						</div>
+					</div>	<!-- End other skills -->
+				</div>	
+			</div>
+		</div>
+		<!-- End Technical Skills Section -->
 
-                    </div>
-                </div>
+		<!-- Start Experience Section -->
+		<div class="experiences center" id="experiences">
+			<div class="container">
+				<!-- Title -->
+				<div class="title wow fadeIn" data-wow-duration="0.5s" data-wow-offset="200">
+					<h2 class="h2">Experiences</h2>
+					<div class="heading-line"></div>
+					<!-- <p class="main-para">I have got training from various reputed company and institues where i learnt different skiil sets. </p> -->
+				</div>	
+				<!-- start timeline -->
+				<div class="timeline wow fadeIn" data-wow-duration="0.5s" data-wow-offset="200">
 
-                
-            <br>
+					<!-- Event No. 2 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>Google: Explore ML Facilitator</h3>
+							<span class="duration">( July 2019 : January 2020)</span>
+							<span class="job-title"> Machine Learning and its Algorithms</span>
+							<p>I took workshops on the topic of Machine Learing and it's practical life implementation to solve some real life problems</p>
+						</div>
+					</div>
 
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="fa fa-archive"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3> Udacity and Google: Android Dev with Kotlin</h3>
+							<span class="duration">(May 2019: July 2019  )</span>
+							<span class="job-title"> Android App Development/span>
+							<p> This course helped me to futher expand my skills in the field of Android Development by introducing me to the world of Kotlin</p>
+						</div>
+					</div>
 
-<!--                 <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>Hey There! I'm a 2nd Year B.Tech UG in Electrical Engineering at the National Institute of Technology-Agartala, India, a hardworking and a goal-oriented person.
-<br>I am a Web Developer, Android App developer, and a Machine Learning practitioner who is proficient in Python3, C++, JAVA, and Kotlin.
-<br> I love to mess around with softwares and hardwares.</br> </p>
-                         
-                        </div>
-                    </div>               
-                </section>
-
- -->
-
-    
-
-               <section class="latest section ">
+					<!-- Event No. 3 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="fa fa-archive"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3> GeeksforGeeks DS and Algorithms Course</h3>
+							<span class="duration">(May 2019: July 2019  )</span>
+							<span class="job-title"> Data Structures and Algorithms</span>
+							<p> This course helped me to understand the concepts of DSA. I learnt about the applications and implementations of DSA. Concepts like backtracking and Dynamic programming amazed me.</p>
+						</div>
+					</div>
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="fa fa-archive"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3> Udacity and Google: Basics of Android</h3>
+							<span class="duration">(May 2019: July 2019  )</span>
+							<span class="job-title"> Android App development</span>
+							<p>This course helped me to get started with Android App Development with JAVA and XML using Android Studio. </p>
+						</div>
+					</div>
+					<!-- Event No. 4 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>Udemy: Machine Learning A to Z </h3>
+							<span class="duration">( Sept : 2018: Jan:2019)</span>
+							<span class="job-title">Online Course</span>
+							<p>It was the first online course which I took in my 1st year of study, it introduced me to the magical world of Machine Learning and made me concentrate all my focus in this field.  </p>
+						</div>
+					</div>
+				</div> <!-- End Timeline -->
+			</div>
+		</div>
+		<!-- End Experience Section -->
+		
+		
+		<!-- Start Portfolio Section -->
+		<div class="portfolio" id="portfolio">
+			<div class="container">
+				<!-- Title -->
+				<div class="center">
+					<h2 class="h2">Projects</h2>
+					<div class="heading-line"></div>
+					<p class="main-para">Here are some projects that I do not regret investing time on :)</p>
+				</div>	
+				
+				<section class="latest section ">
                     <div class="section-inner" data-aos="slide-left">
                         <div>
                             <div id="large-header" class="large-header">
                                <canvas id="demo-canvas"></canvas>
                             </div>
                          </div>
-                        <h2 class="heading">Projects</h2>
-                        <div class="content">    
+   
                                                
                             <div class="item featured text-center">
                                 <h3 class="title"><a href="#" target="_blank">PIKA - The autonomous robot</a></h3>
                                 <p class="summary">A perfect pet doesn't exist</p>
                                 <div class="featured-image has-ribbon">
                                    
-                                    <iframe width="314" height="314" src="https://www.youtube.com/embed/0Fff2ncdbPo?autoplay=1&loop=1&vq=hd720" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="500" height="500" src="https://www.youtube.com/embed/0Fff2ncdbPo?loop=1&vq=hd720" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     
                                     <div class="ribbon">
                                         <div class="text">New</div>
@@ -205,7 +475,7 @@
 
                                 <div class="item row" data-aos="slide-right">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                                <img class="img-fluid project-image" src="img/project-1.png" alt="project name" style="width:375px;height:325px;" />
                                 </a>
                                 <div class="desc col-md-8 col-12"  data-aos="slide-up">
                                     <h3 class="title">NOOB - The noob warrior</h3>
@@ -219,12 +489,13 @@
                                     </p>
                                     
                                 </div><!--//desc-->                          
-                            </div><!--//item-->
+							</div><!--//item-->
+							<br>
 
 
                             <div class="item row"  data-aos="slide-left">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-2.jpg" alt="project name" />
+                                <img class="img-fluid project-image" src="img/project-2.jpg" alt="project name" style="width:375px;height:325px;" />
                                 </a>
                                 <div class="desc col-md-8 col-12"  data-aos="zoom-in">
                                     <h3 class="title">Self Driving car for GTA-V</h3>
@@ -237,11 +508,12 @@
                                     </p>
                                     
                                 </div><!--//desc-->                          
-                            </div><!--//item-->
+							</div><!--//item-->
+							<br>
                             
                             <div class="item row"  data-aos="slide-right">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-3.jpg" alt="project name" />
+                                <img class="img-fluid project-image" src="img/project-3.jpg" alt="project name" style="width:375px;height:375px;" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#" target="_blank">ANARC Android App - Official app of the Robotics Club of NIT-Agartala</a></h3>
@@ -254,11 +526,13 @@
                                     </p>
                                     
                                 </div><!--//desc-->                          
-                            </div><!--//item-->
+							</div><!--//item-->
+							
+							<br>
                             
                              <div class="item row"  data-aos="slide-left">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-4.png" alt="project name" />
+                                <img class="img-fluid project-image" src="img/project-4.png" alt="project name" style="width:365px;height:365px;" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#">Sentiment Analyzer</a></h3>
@@ -268,11 +542,13 @@
                                     </p>
                                     
                                 </div><!--//desc-->                          
-                            </div><!--//item-->
+							</div><!--//item-->
+							
+							<br>
                             
                             <div class="item row" data-aos="slide-right">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-5.gif" alt="project name" />
+                                <img class="img-fluid project-image" src="img/project-5.gif" alt="project name" style="width:375px;height:325px;" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#" target="_blank">Song Lyrics Generator - Your personal song writer </a></h3>
@@ -282,17 +558,17 @@
                                     </p>
                                     
                                 </div><!--//desc-->                          
-                            </div><!--//item-->                            
+							</div><!--//item-->      
+							<br>                      
                            
                             
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                
-                </section><!--//section-->
+
                 
                 <section class="projects section">
                     <div class="section-inner">
-                        <h2 class="heading">Other Projects</h2>
+                        <h2 class="heading">Other Small Projects</h2>
                         <div class="content">
+							<br>
 
 
                         	 <div class="item" data-aos="slide-left">
@@ -300,259 +576,168 @@
                                 <p class="summary">Python++ is a wrapper over your normal python3.7 interpreter, follow this <a href="https://cubepy.blogspot.com/2020/04/using-python-with-braces-python.html">link</a> to learn more.</p>
                                 
                             </div><!--//item-->
-
+							<br>
                         	
                             <div class="item">
                                 <h3 class="title"><a href="#" target="_blank">Classification of Hand-Sign Languages using Machine Learning</a> <span class="badge badge-theme">Free</span></h3>
                                 <p class="summary">A ML model to classify sign languages, trained by transfer learning on VGG19 model</p>
                                 
-                            </div><!--//item-->
+							</div><!--//item-->
+							<br>
                             <div class="item">
                                 <h3 class="title"><a href="#" target="_blank">AMBISONIC Music Player</a> <span class="badge badge-theme">Free</span></h3>
                                 <p class="summary">An Android app to play music with the popular Ambisonic or "8-D" effect.</p>
                                 
-                            </div><!--//item-->
+							</div><!--//item-->
+							<br>
                             <div class="item">
                                 <h3 class="title"><a href="#">Ambisonic Music Converter</a> <span class="badge badge-theme">Free</span></h3>
                                 <p class="summary">A simple Python Script to convert any MP3 to 8-D Audio.</p>
                             
-                            </div><!--//item-->
+							</div><!--//item-->
+							<br>
                             
                             <a class="btn btn-cta-secondary" href="https://github.com/WinterSoldier13">More on Github <i class="fas fa-chevron-right"></i></a>
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Google-AI Explore ML Facilitator- <span class="place"><a href="#"></a></span> <span class="year">(July 2019 - Jan 2020)</span></h3>
-                                <p>Conducted various Workshops related to Machine Learning. Went to Google, Banglore, India for a two days workshop on Machine Learning and Public Speaking.</p>
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">General Secretary - <span class="place"><a href="#">ANARC, NIT Agartala</a></span> <span class="year">(Aug 2019 - present)</span></h3>
-                                <p>One of the organizing member for AAYAM 7.0 (The TechFest of NIT Agartala). Worked on several robotics projects.</p>
-                            </div><!--//item-->
-                            
-                            
-                            
+                            <br>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
 
-
-            </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12" >
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>India</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">ayushsingh1315@gmail.com</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Blog:</span><a href="#">https://cubepy.blogspot.com</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                
-                <aside class="skills aside section">
-                    <div class="section-inner" >
-                        <h2 class="heading">Skills</h2>
-                        <div class="content" data-aos="zoom-in">
-                            <p class="intro"> 
-                            <br>||Quantumdot Cellular Automata||
-                            <br>||Machine Learning, Django, NodeJS, ReactJS, MongoDB, PostGRE, SQL, HTML & CSS, Android Development, IoT||
-                            <br>||Python, JAVA, Kotlin, C, C++, C#, MATLAB, Octave||
-                        </p>
-                           
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title"><i class="fas fa-heart"></i>Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="92%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">JAVA <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
+			</div>	
+		</div>
+		<!-- End Portfolio Section -->
 
 
+		<!-- Start Contact Section -->
+		<div class="contact center" id="contact-me">
+			<div class="container">
+				<!-- Title -->
+				<div class="title wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+					<h2 class="h2">Get in touch</h2>
+					<div class="heading-line"></div>
+					<p class="main-para"></p>
+				</div>
+				
+				<!-- Contact Details -->
+				<div class="row contact-info">
+					<div class="col-md-3 col-sm-6 col-xs-12 info">
+						<i class="fa fa-phone center"></i>
+						<div class="info-content">
+							<h3>call me</h3>
+							<span> 7766942620 </span>
 
-                                <div class="item">
-                                    <h3 class="level-title"><i class="fas fa-heart"></i>C++ <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Kotlin <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 info">
+						<i class="fa fa-envelope center"></i>
+						<div class="info-content">
+							<h3>Send a message</h3>
+							<span>ayushsingh1315@gmail.com</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 info">
+						<i class="fa fa-home center"></i>
+						<div class="info-content">
+							<h3>Visit me</h3>
+							<span>Aryabhat Hostel, NIT Agartala.</span><span>India</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 info">
+						<i class="fa fa-clock-o center"></i>
+						<div class="info-content">
+							<h3>Work time</h3>
+							<span> 13:00 - 01:00 </span>
+							
+						</div>
+					</div>
+				</div>				
+			</div>
+			
+		<!-- End Contact Section -->
 
-                                <div class="item">
-                                    <h3 class="level-title">JAVAScript <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
+		
+		<!-- Start Footer Section -->
+		<div class="footer center">
+			<div class="container">
+				<div class="row">
+					<div class="follow-me">follow me</div>
+					<div class="col-md-12 col-xs-12 links">
+						<!-- Social links -->
+						<div class="icon-wrapper center">
+							<!-- Facebook Link -->
 
+							<!-- instagram Link -->
+							<a href="https://www.facebook.com/Ayushsingh1315" class="icon in" target="_blank">
+								<i class="fa fa-facebook"></i>
+								<i class="fa fa-facebook"></i>
+							</a>
+							<!-- Google Plus Link -->
+							<a href="https://github.com/WinterSoldier13" class="icon gp" target="_blank">
+								<i class="fa fa-github-square"></i>
+								<i class="fa fa-github-square"></i>
+							</a>
+							<!-- Linkedin Link -->
+							<a href="https://www.linkedin.com/in/winter-soldier" class="icon lin" target="_blank">
+								<i class="fa fa-linkedin"></i>
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-md12 col-xs-12 copyright">
+						<h6>&copy; Hosted with &hearts; on GitHub. All Rights Reserved.</h6>
+					</div>
+				</div>	
+			</div>
+		</div>
 
+		<!-- End Footer Section -->			
 
-                                <h3 class="level-title">HTML5, CSS <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title=""><i class="fas fa-info-circle"></i></span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
+		<!-- Start To Top button -->
+		<div class="back-to-top center">
+			<i class="fa fa-long-arrow-up"></i>
+		</div>
+		<!-- End To Top button -->	
 
-                                                          
-                                
-            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                
-      
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i>B.Tech Electrical Engineering</h3>
-                                <h4 class="university">National Institute of Technology-Agartala, India <span class="year">(2018-2022)</span></h4>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                      <span class="level">Professional
-Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>  <i class="fas fa-star"></i><i class="fas fa-star-half"></i></span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Hindi:</strong></span>
-                                 
-                                    <span class="level">Native Speaker<br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-               
-                
-                <aside class="list music aside section">
-                    
-                    <div class="section-inner">
-                        
-                        <h2 class="heading">Favourite coding music</h2>
-                        <div class="content" data-aos="slide-right">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="#">Coldplay - Yellow</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Ed Sheeran - Photograph </a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Maroon V - Animals</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Coldplay - Orphans</a></li>
-                            </ul>
-                        </div><!--//content-->
-                        <br>
-
-                        <div data-aos="slide-down">
-                        <h2 class="heading">My current repetitions  </h2>
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="#">Marshmellow and Halsey - Be Kind</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">5SOS - Young Blood</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Adele - Rolling in the deep</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Tones And I- Dance Monkey :p</a></li>
-                                
-
-                            </ul>
-                            
-                        </div>  
-                        
-
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
-
-        
-
-    
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        
-        <div class="container text-center">
-                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Hosted with <i class="fas fa-heart"></i> on GitHub</small>
-        </div><!--//container-->
-           </footer><!--//footer-->
-<!-- hitwebcounter Code START -->
-<a href="#" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7348777&style=0041&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
-</a>    
+		<!-- Start scroll percentage -->
+		<div id="scroll"></div>
+		<!-- End scroll percentage -->		
+		
 
 
+		<!-- Including jQuery file -->
+		<script src="js/jquery-1.12.1.min.js"></script>
+		<!-- Including jQuery.appear file -->
+		<script src="js/jquery.appear.js"></script>
+		<!-- Bootstrap js file -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- easy pie chart -->
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<!-- NiceScroll plugin -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- animate numbers plugin -->
+		<script src="js/jquery.animatenumber.min.js"></script>
+		<!-- Horizontal bar chart -->
+		<script src="js/bars.js"></script>
+		<!-- mixitup plugin -->
+		<script src="js/jquery.mixitup.min.js"></script>
+		<!-- animated background header -->
+		<script src="js/tweenlite.min.js"></script>
+		<!-- form validation file -->
+		<script src="js/validator.min.js"></script>
+		<!-- Owl carousel js file -->
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/aos-trans.js"></script>
+		<!-- Google Map -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJOx2cEs3x3dTSubqABijclN_3uEmL7f8"></script>
+		<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> -->
+		<!-- Custom file  -->
+		<script src="js/plugins.js"></script>
+		<!-- Wow.js file -->
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+	</body>
 
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <script type="text/javascript" src="assets/js/main2.js"></script>    
-    <script type="text/javascript" src="assets/js/main.js"></script>            
-    <script type="text/javascript" src="assets/js/demo.js"></script>  
-    <script type="text/javascript" src="assets/js/demo.js"></script>  
-
-</body>
-</html> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Mirrored from ahmedbeheiry.com/works/tf/marqa/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Apr 2018 19:45:19 GMT -->
+</html>
