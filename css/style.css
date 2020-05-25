@@ -36,6 +36,10 @@ URL: https://themeforest.net/user/ahmedbeheiry
 /* ---------------------------------------
 			Start Main Rules 
 ----------------------------------------- */
+@media only screen and (max-width: 900px) {
+    /* Style adjustments for non responsive websites */
+    body{width:940px;}
+}
 
 .latest .has-ribbon {
 	position: relative;
