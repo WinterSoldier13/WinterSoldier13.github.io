@@ -159,7 +159,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 	$("#facts").appear(function() {
 		var currentNumber = $('#number_1').text();
 
-$({numberValue: currentNumber}).animate({numberValue: 7.6}, {
+$({numberValue: currentNumber}).animate({numberValue: 9.0}, {
 duration: 2500,
 easing: 'linear',
 step: function (now) {
@@ -177,7 +177,7 @@ step: function (now) {
 });
 		var currentNumber = $('#number_3').text();
 
-$({numberValue: currentNumber}).animate({numberValue:9.1}, {
+$({numberValue: currentNumber}).animate({numberValue:9.3}, {
 duration: 2500,
 easing: 'linear',
 step: function (now) {
