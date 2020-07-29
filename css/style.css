@@ -1490,7 +1490,7 @@ a.selected-item:before, .side-menu a:hover:before {
 	html {font-size: 14px;}
 
 	/* Start portfolio section */
-	.portfolio .controls button {margin-right: 10px;}
+	.portfolio .controls button {margin-right: 0px;}
 	/* End Portfolio section */
 }
 
