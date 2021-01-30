@@ -32,7 +32,11 @@
 			This website is hosted on free server and thus is a little slow to load :(  Not yet optimised for mobile devices. 
 		  </div>
 
-
+		  <script>
+			  window.addEventListener("orientationchange", function(e) {   
+				if(window.innerHeight > window.innerWidth){
+					alert("Please use Landscape!");}});
+		  </script>
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
