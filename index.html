@@ -32,10 +32,13 @@
 			This website is hosted on free server and thus is a little slow to load :(  Not yet optimised for mobile devices. 
 		  </div>
 
-		  <script>
-			  window.addEventListener("orientationchange", function(e) {   
-				if(window.innerHeight > window.innerWidth){
-					alert("Please use Landscape!");}});
+		  <script>				
+					window.onload = (event) => {
+						console.log('page is fully loaded');
+						if(window.innerHeight > window.innerWidth){
+							alert("Please use landscape mode for better experience!");
+						}
+					};
 		  </script>
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -138,7 +141,7 @@
 						<div class="heading-line"></div>
 						<div class="personal-wrapper">
 							<span><strong>Full Name: </strong>Ayush Ranjan Singh</span>
-							<span><strong>E-mail:</strong>ayushsingh1315@gmail.com</span>
+							<span><strong>E-mail:</strong>singh.ayush@caffeine-coated.codes</span>
 							<span><strong>phone number: </strong>+91 7766942620</span>
 							<span><strong>website: </strong><a href="https://cubepy.blogspot.com" target="_blank">cubePY</a></span>
 						</div>
