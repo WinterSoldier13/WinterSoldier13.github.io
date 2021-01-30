@@ -40,7 +40,10 @@ URL: https://themeforest.net/user/ahmedbeheiry
     /* Style adjustments for non responsive websites */
     body{width:940px;}
 }
-
+.body
+{
+	zoom: 90%;
+}
 .latest .has-ribbon {
 	position: relative;
 	display: inline-block;
