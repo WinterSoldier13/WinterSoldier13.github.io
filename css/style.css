@@ -268,8 +268,8 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 
 .header .large-header {
 	position: relative;
-	width: 100%;
-	background: #333 url('../img/header1.jpg') center center no-repeat fixed;
+	width: auto;
+	background: #333 url('https://pbs.twimg.com/profile_banners/844501783611428865/1601129276') center center no-repeat fixed;
 	overflow: hidden;
 	-webkit-background-size: cover;
     -moz-background-size: cover;

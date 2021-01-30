@@ -217,13 +217,13 @@ step: function (now) {
 			number: 78		// Change to your number
 		}, 1500);
 		$("#chart_num_5").animateNumber({
-			number: 65		// Change to your number
+			number: 60		// Change to your number
 		}, 1500);
 		$("#chart_num_6").animateNumber({
 			number: 63		// Change to your number
 		}, 1500);
 		$("#chart_num_7").animateNumber({
-			number: 63		// Change to your number
+			number: 70		// Change to your number
 		}, 1500);
 		$("#chart_num_8").animateNumber({
 			number: 82		// Change to your number
