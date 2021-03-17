@@ -11,7 +11,7 @@ var _0x3859 = [
   "indexOf",
   "error",
   "open",
-  "https://ajitr.github.io/resume.pdf",
+  "https://github.com/WinterSoldier13/WinterSoldier13.github.io/blob/master/resume_ayush_ver8.pdf",
   "clear",
   "cloneNode",
   "display:block",
