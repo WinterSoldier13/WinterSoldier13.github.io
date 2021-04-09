@@ -19,7 +19,7 @@ var _0x3859 = [
   "div",
   "appendChild",
   "innerHTML",
-  "<span\x20style\x20=\x20\x22color:#3ffb57\x22>winter-soldier@TheFlyingDutchman\x20$</span>\x20",
+  "<span\x20style\x20=\x20\x22color:#3ffb57\x22>guest@TheFlyingDutchman\x20$</span>\x20",
   "push",
   "executed_commands",
   "value",
