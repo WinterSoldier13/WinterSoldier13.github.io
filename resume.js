@@ -144,3 +144,5 @@ function clear_console() {
 $(_0x8c9d("0x26"))[_0x8c9d("0x27")](function () {
   $(_0x8c9d("0x28"))[_0x8c9d("0x29")]();
 });
+
+console.log("Btw I have a FTE offer from Google... shhhhh it's a secret");
