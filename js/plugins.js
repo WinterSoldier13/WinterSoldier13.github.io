@@ -1,32 +1,5 @@
 /* global $, alert, console*/
 
-/* ---------------------------------------------------
-Template Name: Marqa
-Description: Responsive HTML5 / CSS3 One-Page Portfolio-Resume Template
-Version: 1.3
-Author: Ahmed Beheiry 
-URL: https://themeforest.net/user/ahmedbeheiry
-
-/* ---------------------------------------------------
-	*** Table Of Content:
------------------------------------------------------
-1 - Preloader Page
-2 - Launching and adjusting NiceScroll plugin 
-3 - Move to About section on clicking mouse icon
-4 - Adjusting the top nav Visibility 
-5 - Adjusting Side Menu showing / hiding 
-6 - Scroll Percentage
-7 - Accordion in About-me Section
-8 - Back To Top Button
-9 - Animating Numbers at Fun-Facts Section
-10 - Easy Pie Chart in Skills Section
-11 - MixItUp Plugin in Portfolio Section
-12 - Owl Carousel in Testimonials Section
-13 - Owl Carousel in Partners Section
-14 - Contact Form Validation
-15 - Launching Google map
------------------------------------------------------ */
-
 (function($) {
 	"use strict";
 
@@ -177,7 +150,7 @@ step: function (now) {
 });
 		var currentNumber = $('#number_3').text();
 
-$({numberValue: currentNumber}).animate({numberValue:9.3}, {
+$({numberValue: currentNumber}).animate({numberValue:10.0}, {
 duration: 2500,
 easing: 'linear',
 step: function (now) {
