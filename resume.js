@@ -11,7 +11,7 @@ var _0x3859 = [
   "indexOf",
   "error",
   "open",
-  "https://github.com/WinterSoldier13/WinterSoldier13.github.io/blob/master/resume.pdf",
+  "https://drive.google.com/file/d/1jZSYb3NhmEzjAKg7ai3FYHnCT3fTmLzB/view?usp=drive_link",
   "clear",
   "cloneNode",
   "display:block",
