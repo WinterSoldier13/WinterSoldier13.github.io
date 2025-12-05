@@ -18,6 +18,7 @@
 }
 #about,
 #achievements,
+#book-a-time,
 #connect,
 #contact,
 #download,
@@ -34,6 +35,9 @@
   padding: 15px;
 }
 #contact a {
+  color: #d9d813;
+}
+#book-a-time a {
   color: #d9d813;
 }
 #download a {

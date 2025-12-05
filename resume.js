@@ -69,6 +69,7 @@ var available_cmd = [
   _0x8c9d("0x8"),
   "clear",
   "ls",
+  "book-a-time",
 ];
 var cmd = document[_0x8c9d("0x9")](_0x8c9d("0xa"));
 cmd["addEventListener"](_0x8c9d("0xb"), function (_0x37cda5) {
