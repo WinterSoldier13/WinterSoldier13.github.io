@@ -11,7 +11,7 @@ var _0x3859 = [
   "indexOf",
   "error",
   "open",
-  "https://drive.google.com/file/d/1jZSYb3NhmEzjAKg7ai3FYHnCT3fTmLzB/view?usp=drive_link",
+  "https://drive.google.com/file/d/18WSvCUixoKOrkHoTGbKKNCbnNQ75WrQk/view?usp=sharing",
   "clear",
   "cloneNode",
   "display:block",
