@@ -72,10 +72,15 @@
     overflow-x: hidden;
   }
 
-  #achievements pre,
-  #error pre {
+  #achievements pre {
     font-size: 10px;
     overflow-x: auto;
+  }
+
+  #error pre {
+    font-size: 0.8vw;
+    line-height: 1.2;
+    overflow-x: hidden;
   }
 
   .welcome {
