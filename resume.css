@@ -64,3 +64,36 @@
 .proj_name span {
   color: #2ebfb5;
 }
+
+@media only screen and (max-width: 768px) {
+  pre.ascii {
+    font-size: 2vw;
+    line-height: 1.2;
+    overflow-x: hidden;
+  }
+
+  #achievements pre,
+  #error pre {
+    font-size: 10px;
+    overflow-x: auto;
+  }
+
+  .welcome {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  #resume-container {
+    padding: 10px;
+  }
+
+  #command-line span {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #command {
+    width: 100%;
+    font-size: 16px !important;
+  }
+}
