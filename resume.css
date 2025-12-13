@@ -6,7 +6,7 @@
   outline-width: 0;
   font-size: 16px !important;
   margin-bottom: 20px;
-  font-family: Courier, Monaco, monospace;
+  font-family: 'Fira Code', monospace;
   text-transform: lowercase;
 }
 #command-line span {
