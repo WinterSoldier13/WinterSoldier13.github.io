@@ -1,16 +1,39 @@
-#command {
+#input-container {
+  display: inline-block;
+  position: relative;
+  width: calc(100% - 300px); /* Adjust based on prompt width */
+  vertical-align: top;
+}
+
+#command, #suggestion {
   display: inline-block;
   border: 0;
-  background-color: #000;
-  color: #fff;
+  background-color: transparent;
   outline-width: 0;
   font-size: 16px !important;
-  margin-bottom: 20px;
   font-family: 'Fira Code', monospace;
   text-transform: lowercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+#command {
+  color: #fff;
+  z-index: 2;
+}
+
+#suggestion {
+  color: #555;
+  z-index: 1;
+}
+
 #command-line span {
   display: inline-block;
+  margin-right: 10px;
 }
 #command-line {
   display: inline-block;
