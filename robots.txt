@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wintersoldier13.github.io/sitemap.xml
