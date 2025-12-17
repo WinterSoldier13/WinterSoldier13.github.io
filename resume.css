@@ -1,42 +1,16 @@
-#command, #suggestion {
+#command {
   display: inline-block;
   border: 0;
+  background-color: #000;
+  color: #fff;
   outline-width: 0;
   font-size: 16px !important;
+  margin-bottom: 20px;
   font-family: 'Fira Code', monospace;
   text-transform: lowercase;
-  width: 100%;
-  padding: 0;
-  margin: 0;
 }
-
-#command {
-  background-color: transparent;
-  color: #fff;
-  position: relative;
-  z-index: 2;
-}
-
-#suggestion {
-  background-color: transparent;
-  color: gray;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.input-wrapper {
-  position: relative;
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
-  margin-bottom: 20px;
-}
-
 #command-line span {
   display: inline-block;
-  margin-right: 5px;
 }
 #command-line {
   display: inline-block;
@@ -126,10 +100,5 @@
   #command {
     width: 100%;
     font-size: 16px !important;
-  }
-
-  .input-wrapper {
-    width: 100%;
-    margin-bottom: 20px;
   }
 }
