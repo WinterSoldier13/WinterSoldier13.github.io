@@ -1,0 +1,227 @@
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+\usepackage{newtxtext,newtxmath}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+    \textbf{\Huge \scshape Ayush Singh} \\ \vspace{1pt}
+    \small +91-7766942620 $|$ \href{mailto:ayushsingh1315@gmail.com}{{ayushsingh1315@gmail.com}} $|$
+    \href{https://linkedin.com/in/winter-soldier}{{linkedin.com/in/winter-soldier}} $|$
+    \href{https://github.com/WinterSoldier13}{{github.com/WinterSoldier13}} \\
+    \small TLDR: Swiss Army Knife;
+
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Software Engineer - III | Google, Munich.}{November 2024 - Present}
+      {Java, C++, Kotlin, Proprietary Google technologies}{}
+      \resumeItemListStart
+        \resumeItem{Working in the SignedOut Consent team, responsible for managing user data privacy across all Google Products.}
+        \resumeItem{Led the SignedOut implementation for the \textbf{UK's Online Safety Act}, executing changes across the web, Android, and iOS Google Search app. Coordinated development efforts with multiple engineering and legal teams to ensure timely compliance. I was awarded \textbf{spot bonus} from \textbf{VP of Engineering} for this work.}
+        \resumeItem{Commandeered the effort to implement the changes related to US's AppStore AgeVerification bill. I was responsible for driving, developing, and co-ordinating the launch with a very strict deadline. Efforts like this saves Google from millions of dollars of fine.}
+        \resumeItem{Revamped the backend system for handling privacy signals, significantly simplifying the infrastructure. This was a major achievement for our org within Google.}
+    \resumeItemListEnd
+  \resumeSubheading
+{Software Engineer - III | Google, India}{July 2022 - November 2024}
+{C++, TypeScript, Java, Proprietary Google Technologies}{}
+\resumeItemListStart
+\resumeItem{Worked on BinaryFileSystem, an exceptionally scalable and impervious file system optimized for the seamless deployment and distribution of critical binary assets inside the company.}
+\resumeItem{Led the development and implementation of a tool that quantified the impact of Google Chrome's third-party cookie deprecation on all internal Google web apps. This project had \textbf{significant impact} and received executive approval, including the \textbf{CEO's} go-ahead. Earned a \textbf{promotion within 1.2 years} of joining for my contributions.}
+\resumeItem{Designed and developed an application to extract intricate telemetry metrics from externally hosted third-party distributed systems, facilitating a comprehensive understanding of system performance dynamics.}
+\resumeItem{Drove the architecture and implementation of a robust, highly available, and scalable backend infrastructure, responsible for the aggregation and correlation of metrics and trace spans originating from the monitored distributed systems.}
+\resumeItem{Developed an SLA/SLO enforcement system for third-party systems, saving Google an estimated \emph{\$2.5 million} per quarter.}
+\resumeItem{Developed a gateway system engineered to securely transfer static content from a third-party storage repository to a secure internal storage system.}
+\resumeItem{Collaborated as a co-author on the development of three comprehensive Technical Design Documents, demonstrating a commitment to documenting and disseminating critical engineering insights and knowledge.}
+\resumeItemListEnd
+
+  \resumeSubheading
+      {Software Engineer-Intern | Komprise, India.}{January 2022 - June 2022}
+      {Python, proprietary organization components, Robot-Framework}{}
+      \resumeItemListStart
+        \resumeItem{Developed an Automation Engine capable of parallelizing the different operations in the product and identifying critical bugs.}
+        \resumeItem{Optimized the BVT suite using multi-threading, achieving an \emph{87.5\%} reduction in execution time. This improved test efficiency and contributed to faster software delivery.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Data Engineer-Intern | Accenture, India.}{May 2021 -- July 2021}
+      {Snowflake, Tableau, Python, AWS-S3, Rasa}{}
+      \resumeItemListStart
+        \resumeItem{Developed an end-to-end Business-Intelligence Dashboard to analyze statistics of E-Commerce websites.}
+        \resumeItem{Designed and built a pipeline for the big data to flow from the staging area in AWS-S3 to Snowflake Warehouse in an optimized manner.}
+        \resumeItem{Built a Natural Language Processing-powered chat-bot that extracts and presents key insights from data, facilitating informed decision-making for stakeholders.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer-Intern | Tookitaki, Singapore.}{October 2020 -- January 2021}
+      {Spark, ActiveMQ, JMS, Scala, MySQL}{}
+      \resumeItemListStart
+        \resumeItem{Developed a pipeline that fetches data from a queue/topic of an ActiveMQ-Broker through Spark Structured-Streaming and then writes the data to another queue of the broker.}
+        \resumeItem{Decreased the latency of message delivery from \emph{0.85 sec} (Bahir) to \emph{<0.05 sec} (Custom JMS-Client).}
+        \resumeItem{Embedded the JMS-Client in a Spark Structured-Streaming application, with client-side message recovery system.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology, Agartala.}{August 2018 -- May 2022}
+      {Bachelor of Technology (Electrical Engineering)}{9.32/10 CGPA}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: TypeScript, C++, Scala, and Java.} \\
+     \textbf{Libraries and Tools}{: ActiveMQ, Spark, Kafka, ReactJS, Node.js, Express, MongoDB, Tableau, Snowflake, Rasa, Django, SQL, PyTorch, FastAPI, Firebase, git, ROS and Tensorflow.} \\
+     \textbf{Software Packages}{: Docker, Postman, Jupyter Notebook, Simulink, VS Code, Adobe Photoshop, Android-Studio, Vim, UNIX.}
+    }}
+ \end{itemize}
+
+
+
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     { -> Received 7 peer bonuses from colleagues across different teams at Google for helping them out with their technical blockage.} \\
+     { -> Institute \textbf{\emph{Rank 1}} on GeeksForGeeks (among 1,180+) with a worldwide \textbf{\emph{Rank 72}} (among 100,000+) in \bf{Algorithms}.} \\
+     { -> \textbf{One of 50 students} selected from all across India, for \emph{Google-ExploreML 2019}.}\\
+     { -> \textbf{One of 11 students} selected for the prestigious \emph{Indian Academy of Sciences: FASTSF Fellowship 2021.} }\\
+     { -> Established the first Developer Student Club at NIT-A after being appointed as the Lead by Google in a highly selective process (only 179 leads were selected across India)}
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {YTM AI Host}{https://github.com/WinterSoldier13/ytm_ai_host}
+      {TypeScript, Gemini API, WebLLM, WebGPU, Python}{}
+      \resumeItemListStart
+      \resumeItem{Developed an AI Host that acts as an RJ on YouTube Music Web, providing introductions with wit and energy similar to a real Radio Jockey.}
+      \resumeItem{Integrated Gemini API and WebLLM for text generation, and multiple TTS engines (Chrome TTS, Kokoro JS, XTTS v2) for dynamic speech.}
+      \resumeItem{Implemented smart caching and pre-fetching for seamless playback.}
+      \resumeItem{Also created a local server, which can be plugged into YTM or Spotify, to run local LLM and TTS model for seamless private experience.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Pika - an Autonomous Robot}{https://youtu.be/0Fff2ncdbPo}
+      {Tensorflow, OpenCV, Keras, Raspberry-Pi}{}
+      \resumeItemListStart
+      \resumeItem{Developed an autonomous robot that can navigate in any environment using Computer-Vision.}
+      \resumeItem{The robot uses onboard Raspberry-Pi to process the data received from various sensors (including onboard camera) and then
+makes a decision.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {LinkinJMS}{https://github.com/WinterSoldier13/linkinJMS}
+      {Spark, Scala, JMS, ActiveMQ}{}
+      \resumeItemListStart
+      \resumeItem{Developed an application, from scratch, to connect and fetch messages from ActiveMQ broker with low latency (<0.05 sec)
+and enhanced AMQP security.}
+      \resumeItem{The application also supports writing messages to the topic/queue of the ActiveMQ.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Professor-Mirror}{https://github.com/WinterSoldier13/professorMirror}
+      {NodeJS, JavaScript, Firebase, MongoDB}{}
+      \resumeItemListStart
+      \resumeItem{Worked on the backend for an application where the students can rate their professors on several parameters such as Research,
+Course-Material, Interaction with students, etc.}
+      \resumeItem{The app uses MongoDB for persistent storage, and Firebase to store details about the users and facilitate authentication.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\rule[1ex]{19cm}{0.4pt}
+%-------------------------------------------
+\end{document}
